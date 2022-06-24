@@ -25,6 +25,7 @@ export function ChatList({ chatList=[], onClick=() => {}, onDelete=()=>{} }) {
         let newChatsList = chatsList.filter(chat => chat.RoomId !== chatDetails.RoomId);
         staticChatList.current = newChatsList;
         setChatList(newChatsList);
+        // to unmount the conversation window
         onDelete(chatDetails);
     }
     return (

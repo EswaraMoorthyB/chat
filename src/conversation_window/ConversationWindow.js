@@ -13,10 +13,13 @@ export function ConversationWindow({ conversation = {} }) {
     const details = useRef(MockData["contactOrGroupInfo"][contactOrGroupId]);
 
     useEffect(() => {
+        // update whenever the selected chat id changes
         details.current = MockData["contactOrGroupInfo"][contactOrGroupId];
+        // unmount the previous selected chat info window
         setInfo(false);
         setState(!updateState);
         requestAnimationFrame(() => {
+            // always scroll to the last message
             document.querySelector(".messageList").scrollTo(0,document.querySelector(".messageList").scrollHeight);
         })
         // eslint-disable-next-line react-hooks/exhaustive-deps
