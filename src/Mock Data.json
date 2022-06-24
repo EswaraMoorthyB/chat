@@ -1,0 +1,388 @@
+{
+    "contactOrGroupList":[
+    {
+        "Name": "Eswar",
+        "Id": "Us001",
+        "DP": ""
+    },
+    {
+        "Name": "Jayanth",
+        "Id": "Us002",
+        "DP": ""
+    },
+    {
+        "Name": "Gopal",
+        "Id": "Us003",
+        "DP": ""
+    },
+    {
+        "Name": "Ram",
+        "Id": "Us004",
+        "DP": ""
+    },
+    {
+        "Name": "Siva",
+        "Id": "Us005",
+        "DP": ""
+    },
+    {
+        "Name": "Maneesh",
+        "Id": "Us006",
+        "DP": ""
+    },
+    {
+        "Name": "Karthik",
+        "Id": "Us007",
+        "DP": ""
+    },
+    {
+        "Name": "Group 1",
+        "Id": "Gr001",
+        "DP": "",
+        "IsGroup": true,
+        "Members": ["Us001", "Us003"]
+    },
+    {
+        "Name": "Group 2",
+        "Id": "Gr002",
+        "DP": "",
+        "IsGroup": true,
+        "Members": ["Us001", "Us002"]
+    },
+    {
+        "Name": "Group 3",
+        "Id": "Gr003",
+        "DP": "",
+        "IsGroup": true,
+        "Members": ["Us002", "Us003"]
+    }
+],
+
+"chatList":[
+    {
+        "Name": "Eswar",
+        "RoomId": "Ro001",
+        "LastMessage": "ok",
+        "Id": "Us001",
+        "DP": "https://devhumor.com/content/uploads/images/July2019/kabir-singh-meme.png"
+    },
+    {
+        "Name": "Jayanth",
+        "RoomId": "Ro002",
+        "LastMessage": "fine",
+        "Id": "Us002",
+        "DP": "https://miro.medium.com/max/500/0*4-b8TyA4Ahqa_ch5",
+        "HaveUnread": true
+    },
+    {
+        "Name": "Gopal",
+        "RoomId": "Ro003",
+        "LastMessage": "si",
+        "Id": "Us003",
+        "DP": "https://i.pinimg.com/originals/3c/fc/09/3cfc094c09ae125298dfc7075ff8b4f1.jpg"
+    },
+    {
+        "Name": "Ram",
+        "RoomId": "Ro004",
+        "LastMessage": "Hi Jayanth",
+        "Id": "Us004",
+        "DP": ""
+    },
+    {
+        "Name": "Group 2",
+        "RoomId": "Ro005",
+        "LastMessage": "Hi Es",
+        "Id": "Gr002",
+        "DP": "https://img.devrant.com/devrant/rant/r_2215861_Tdqmj.jpg"
+    },
+    {
+        "Name": "Group 3",
+        "RoomId": "Ro006",
+        "LastMessage": "fine",
+        "Id": "Gr003",
+        "DP": "",
+        "HaveUnread": true
+    }
+],
+
+"conversationId" :{
+    "Ro001": {
+        "Id": "Us001",
+        "Messages": [
+            {
+                "From": "Us001",
+                "Message": "Hi Jayanth",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "Hi Eswar",
+                "Time": ""
+            },
+            {
+                "From": "Us001",
+                "Message": "please join meet now.",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "ok",
+                "Time": ""
+            },
+            {
+                "From": "Us001",
+                "Message": "hi da",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "hi es",
+                "Time": ""
+            },
+            {
+                "From": "Us001",
+                "Message": "available?",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "no",
+                "Time": ""
+            },
+            {
+                "From": "Us001",
+                "Message": "leave tdy?",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "no",
+                "Time": ""
+            },
+            {
+                "From": "Us001",
+                "Message": "then why?",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "time over",
+                "Time": ""
+            },
+            {
+                "From": "Us001",
+                "Message": "are u serious?",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "no",
+                "Time": ""
+            },
+            {
+                "From": "Us001",
+                "Message": "could u please explain?",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "ok. i will explain now. as u know i m searching for a new job and attending some interviews online and busy in those interview call, so its not possible to connect now. hope u understand.",
+                "Time": ""
+            },
+            {
+                "From": "Us001",
+                "Message": "ok",
+                "Time": ""
+            }
+        ]
+    },
+    "Ro002": {
+        "Id": "Us002",
+        "Messages": [
+            {
+                "From": "Us002",
+                "Message": "Hi Gopal",
+                "Time": ""
+            },
+            {
+                "From": "Us003",
+                "Message": "Hi Jayanth",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "how are u?",
+                "Time": ""
+            },
+            {
+                "From": "Us003",
+                "Message": "fine",
+                "Time": ""
+            }
+        ]
+    },
+    "Ro003": {
+        "Id": "Us003",
+        "Messages": [
+            {
+                "From": "Us004",
+                "Message": "Hi Ram",
+                "Time": ""
+            },
+            {
+                "From": "Us003",
+                "Message": "Hi pal",
+                "Time": ""
+            },
+            {
+                "From": "Us004",
+                "Message": "wat r u dng?",
+                "Time": ""
+            },
+            {
+                "From": "Us003",
+                "Message": "si",
+                "Time": ""
+            }
+        ]
+    },
+    "Ro004": {
+        "Id": "Us004",
+        "Messages": [
+            {
+                "From": "Us002",
+                "Message": "Hi Ram",
+                "Time": ""
+            },
+            {
+                "From": "Us004",
+                "Message": "Hi Jayanth",
+                "Time": ""
+            }
+        ]
+    },
+    "Ro005": {
+        "Id": "Gr002",
+        "Messages": [
+            {
+                "From": "Us001",
+                "Message": "Hi Jayanth",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "Hi Gopal",
+                "Time": ""
+            },
+            {
+                "From": "Us003",
+                "Message": "Hi Ram",
+                "Time": ""
+            },
+            {
+                "From": "Us004",
+                "Message": "Hi Es",
+                "Time": ""
+            }
+        ]
+    },
+    "Ro006": {
+        "Id": "Gr003",
+        "Messages": [
+            {
+                "From": "Us002",
+                "Message": "Hi Gopal",
+                "Time": ""
+            },
+            {
+                "From": "Us003",
+                "Message": "Hi Jayanth",
+                "Time": ""
+            },
+            {
+                "From": "Us002",
+                "Message": "how are u?",
+                "Time": ""
+            },
+            {
+                "From": "Us003",
+                "Message": "fine",
+                "Time": ""
+            }
+        ]
+    }
+
+},
+
+"contactOrGroupInfo": {
+    "Us001": {
+        "Name": "Eswar",
+        "DP": "https://devhumor.com/content/uploads/images/July2019/kabir-singh-meme.png",
+        "Description": "All is well",
+        "Number": "9876543210",
+        "AvailableGroups": ["Gr001", "Gr002"]
+    },
+    "Us002": {
+        "Name": "Jayanth",
+        "DP": "https://miro.medium.com/max/500/0*4-b8TyA4Ahqa_ch5",
+        "Description": "All is hell",
+        "Number": "9876543210",
+        "AvailableGroups": ["Gr002", "Gr003"]
+    },
+    "Us003": {
+        "Name": "Gopal",
+        "DP": "https://i.pinimg.com/originals/3c/fc/09/3cfc094c09ae125298dfc7075ff8b4f1.jpg",
+        "Description": "Nothing is well",
+        "Number": "9876543210",
+        "AvailableGroups": ["Gr001", "Gr003"]
+    },
+    "Us004": {
+        "Name": "Ram",
+        "DP": "",
+        "Description": "what is well?",
+        "Number": "9876543210"
+    },
+    "Us005": {
+        "Name": "Siva",
+        "DP": "",
+        "Description": "All is well",
+        "Number": "9876543210"
+    },
+    "Us006": {
+        "Name": "Maneesh",
+        "DP": "",
+        "Description": "All is well",
+        "Number": "9876543210"
+    },
+    "Us007": {
+        "Name": "Karthik",
+        "DP": "",
+        "Description": "All is well",
+        "Number": "9876543210"
+    },
+    "Gr001": {
+        "Name": "Group 1",
+        "DP": "",
+        "Description": "Group is best",
+        "Number": "9876543210",
+        "IsGroup": true,
+        "Members": ["Us001", "Us003"]
+    },
+    "Gr002": {
+        "Name": "Group 2",
+        "DP": "https://img.devrant.com/devrant/rant/r_2215861_Tdqmj.jpg",
+        "Description": "Group is better",
+        "Number": "9876543210",
+        "IsGroup": true,
+        "Members": ["Us001", "Us002"]
+    },
+    "Gr003": {
+        "Name": "Group 3",
+        "DP": "",
+        "Description": "All is good",
+        "Number": "9876543210",
+        "IsGroup": true,
+        "Members": ["Us002", "Us003"]
+    }
+}
+}

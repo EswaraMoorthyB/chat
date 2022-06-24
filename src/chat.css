@@ -1,0 +1,159 @@
+.chatApp {
+    width: 100%;
+    height: 100vh;
+    background-color: #282d37;
+    display: grid;
+    grid-template-columns: minmax(300px, 400px) 1fr;
+    column-gap: 5px;
+    overflow: hidden;
+}
+
+.chatApp .left {
+    border-right: 1px solid #afafaf;
+    color: #ffffff;
+    overflow: auto;
+}
+.leftNav {
+    display: grid;
+    grid-template-rows: 45px 1fr;
+    row-gap: 5px;
+}
+.leftNav input {
+    margin: 7px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.leftNav input:focus-visible {
+    outline: none;
+}
+.chatLists {
+    display: grid;
+    row-gap: 2px;
+    grid-auto-flow: row;
+    cursor: pointer;
+}
+.chats {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 55px 1fr auto auto;
+    column-gap: 5px;
+    cursor: pointer;
+}
+.chats:hover {
+    background-color: #61656f;
+}
+.chats:hover .chatOptions {
+    display: block;
+}
+.highLight {
+    background-color: green;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    align-self: center;
+}
+.chatOptions {
+    display: none;
+    align-self: center;
+}
+.selectedChat {
+    background-color: black;
+}
+.selectedChat:hover {
+    background-color: black;
+}
+.chatDp {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+.chatDp img {
+    border-radius: 50%;
+}
+.profileDp {
+    width: 200px;
+    height: 200px;
+}
+.chatName {
+    display: grid;
+    align-items: center;
+}
+
+.chatApp .right {
+    color: #ffffff;
+    overflow: hidden;
+}
+.conversationWindow {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 5px;
+}
+
+.infoWindow {
+    border-left: 1px solid;
+    height: 100vh;
+    min-width: 400px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(3, min-content);
+    row-gap: 10px;
+    overflow: auto;
+}
+.infoWindow > div {
+    background-color: black;
+    padding: 20px;
+}
+.infoHeader {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.hideInfo {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 11px 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.messageList {
+    display: grid;
+    row-gap: 5px;
+    padding: 10px 0;
+    border-top: 1px solid;
+    overflow: auto;
+    max-height: calc(100vh + -90px);
+}
+.message {
+    display: grid;
+    grid-auto-flow: row;
+    background: #4c4f52;
+    padding: 5px 15px 0;
+    width: max-content;
+    min-width: 200px;
+    max-width: 500px;
+    border-radius: 5px;
+    row-gap: 2px;
+}
+.myMessage, .messageTime {
+    place-self: end;
+}
+.myMessage {
+    background-color: #2b3b56;
+}
+.personalInfo {
+    display: grid;
+    justify-items: center;
+    row-gap: 10px;
+}
+
+
+
+.grayText {
+    color: #afafaf;
+}
+.blackText {
+    color: lightgray;
+}
